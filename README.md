@@ -23,3 +23,12 @@ pnpm install
 ```
 pnpm dev
 ```
+
+### Add the project to Github
+```
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/<<git_account>>/nextjs-dashboard.git
+git branch -M main
+git push -u origin main
+```
